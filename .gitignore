@@ -1,0 +1,44 @@
+# git ignore files
+
+# last update: 13. 07. 24
+
+# OSX files/dirs
+.DS_Store
+.Trash
+.CFUserTextEncoding
+.creash_*
+Desktop
+Documents
+Downloads
+Library
+Movies
+Music
+Pictures
+Public
+Sites
+
+# xcode files
+build/*
+*.pbxuser
+*.perspective
+*.perspectivev3
+*.model1v3
+*.model2v3
+xcuserdata
+
+# other
+.bash_history
+.viminfo
+*.swp
+.vim
+.bashrc
+
+# ruby
+.gem
+.rvm
+.bundler/
+.irb-history
+.irb_history
+.zshrc
+.rnd
+.bash_profile
