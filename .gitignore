@@ -26,6 +26,12 @@ build/*
 *.model2v3
 xcuserdata
 
+# android files
+.android
+
+# svn files
+.subversion
+
 # other
 .bash_history
 .viminfo
