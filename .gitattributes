@@ -1,4 +1,3 @@
-# referenced : http://github.com/meinside/osxconfigs
 
 *.pbxproj -crlf -diff -merge
 
