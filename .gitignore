@@ -1,50 +1,71 @@
 # git ignore files
 
-# last update: 13. 07. 24
+# last update: 13. 07. 24i
+
+# binary files
+*.o
+*.lo
+*.la
+*.al
+.libs
+*.so
+*.so.[0-9]*
+*.a
+*.pyc
+*.pyo
+*.class
+
+# temporary/history files & dirs
+*.swp
+*~.nib
+.cache/
+tmp/
+
+# other scm files/dirs
+.svn
+.cvs
 
 # OSX files/dirs
 .DS_Store
-.Trash
+.Trash/
 .CFUserTextEncoding
-.creash_*
-Desktop
-Documents
-Downloads
-Library
-Movies
-Music
-Pictures
-Public
-Sites
+.crash_*
+Applications/
+Desktop/
+Documents/
+Downloads/
+Library/
+Movies/
+Music/
+Pictures/
+Public/
+Sites/
 
 # xcode files
-build/*
-*.pbxuser
-*.perspective
-*.perspectivev3
-*.model1v3
-*.model2v3
+.cocoapods/
 xcuserdata
-
-# android files
-.android
-
-# svn files
-.subversion
-
-# other
-.bash_history
-.viminfo
-*.swp
-.vim
-.bashrc
 
 # ruby
 .gem
 .rvm
-.bundler/
-.irb-history
-.irb_history
-.zshrc
-.rnd
-.bash_profile
+.bundle
+.bundler
+
+# java
+.gradle/
+
+# atom editor
+.atom/.apm/
+.atom/packages/
+.atom/storage/
+.atom/compile-cache/
+
+# other
+.AndroidStudio*/
+.dropbox/
+.dropbox-master/
+.putty/
+.subversion/
+.vim/
+.viminfo
+Dropbox/
