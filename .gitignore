@@ -1,7 +1,5 @@
 # git ignore files
 
-# last update: 13. 07. 24i
-
 # binary files
 *.o
 *.lo
