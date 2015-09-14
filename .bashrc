@@ -17,6 +17,8 @@ export HISTCONTROL=erasedups
 export HISTSIZE=10000
 shopt -s histappend
 
+export GOPATH=$HOME/srcs/go
+
 # common aliases
 alias ls="ls -G"
 alias ll="ls -G -l"
