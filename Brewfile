@@ -4,6 +4,7 @@ brew 'tmux'
 brew 'tree'
 brew 'wget'
 brew 'git'
+brew 'mosh'
 
 # for installing packaged applications
 tap 'caskroom/cask'
