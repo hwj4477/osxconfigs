@@ -5,6 +5,7 @@ brew 'tree'
 brew 'wget'
 brew 'git'
 brew 'mosh'
+brew 'mongodb'
 
 # for installing packaged applications
 tap 'caskroom/cask'
@@ -18,3 +19,4 @@ cask 'go2shell'
 cask 'cocoarestclient'
 cask 'sourcetree'
 cask 'iterm2'
+cask 'sequel-pro'
