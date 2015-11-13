@@ -1,3 +1,12 @@
+# 
+# .bashrc
+#
+# created on 2015.9.10
+#
+# by hwj4477@gmail.com
+#
+
+
 # for prompt
 source ~/.bash/colors
 source ~/.bash/git-prompt

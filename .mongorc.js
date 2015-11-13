@@ -1,8 +1,15 @@
+//
+// .mongorc.js
+//
+//  by hwj4477@gmail.com
+//
+
+print("\n")
 print("===============================================================================")
 print("============================= MongoDB Shell ===================================")
 print("===============================================================================")
 print("\n")
-print("Drop functions disabled : Databases, Collections, Indexes")
+print("   Drop functions disabled : Databases, Collections, Indexes")
 print("     => Make enable : mongo --norc")
 print("\n")
 print("===============================================================================")

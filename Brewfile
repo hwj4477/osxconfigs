@@ -1,3 +1,12 @@
+#
+# Brewfile
+#
+# by hwj4477@gmail.com
+#
+# last update : 2015.11.13
+#
+
+
 # package
 brew 'vim'
 brew 'tmux'

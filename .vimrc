@@ -1,16 +1,29 @@
+"
+" .vimrc
+"
+" by hwj4477@gmail.com
+"
+" last update : 2015.11.13
+"
+
+
 " settings for vundle (https://github.com/gmarik/vundle)
 " git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 set nocompatible 
 filetype off 
 set rtp+=~/.vim/bundle/Vundle.vim 
-call vundle#begin() 
+call vundle#begin()
+
     Plugin 'gmarik/Vundle.vim' "required
     Plugin 'tpope/vim-fugitive' "required
     Plugin 'tpope/vim-sensible' 
+    Plugin 'vim-ruby/vim-ruby'
+
 call vundle#end()            
 filetype plugin indent on " Put your non-Plugin stuff after this line
 
-" settings
+
+" ==== settings ====
 syntax enable       " syntax highlighting
 set nu              " add line numbers
 set smartindent     " make smart indent
@@ -34,3 +47,8 @@ colo elflord
 
 " for running correct rvm ruby (not osx's default ruby) in zsh
 set shell=/bin/bash
+
+
+" ==== autocommands ====
+" For ruby
+autocmd FileType ruby,eruby,yaml set ai sw=2 ts=2 sts=2 et
