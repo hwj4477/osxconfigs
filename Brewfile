@@ -3,7 +3,7 @@
 #
 # by hwj4477@gmail.com
 #
-# last update : 2015.11.13
+# last update : 2015.11.26
 #
 
 
@@ -29,3 +29,4 @@ cask 'cocoarestclient'
 cask 'sourcetree'
 cask 'iterm2'
 cask 'sequel-pro'
+cask 'caffeine'
