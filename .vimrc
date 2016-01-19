@@ -17,11 +17,16 @@ call vundle#begin()
     Plugin 'gmarik/Vundle.vim' "required
     Plugin 'tpope/vim-fugitive' "required
     Plugin 'tpope/vim-sensible' 
+    Plugin 'scrooloose/nerdtree'
+
     Plugin 'vim-ruby/vim-ruby'
+    Plugin 'tpope/vim-rails'
+    Plugin 'godlygeek/tabular'
+    Plugin 'plasticboy/vim-markdown'
+    Plugin 'JamshedVesuna/vim-markdown-preview'
 
 call vundle#end()            
 filetype plugin indent on " Put your non-Plugin stuff after this line
-
 
 " ==== settings ====
 syntax enable       " syntax highlighting
@@ -52,3 +57,4 @@ set shell=/bin/bash
 " ==== autocommands ====
 " For ruby
 autocmd FileType ruby,eruby,yaml set ai sw=2 ts=2 sts=2 et
+
