@@ -1,9 +1,12 @@
 #!/usr/bin/env bash
 
 #
-# install_atom_file.sh
+# Install atom package
 #
-
+# last update: 2016.01.19
+#
+# by hwj4477@gmail.com
+#
 
 echo 'Install atom package from Atomfile'
 

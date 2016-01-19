@@ -1,7 +1,11 @@
 #!/usr/bin/env bash
 
 #
-# build_atom_file.sh
+# Build Atomfile(atom package list)
+#
+# last update: 2016.01.19
+#
+# by hwj4477@gmail.com
 #
 
 
