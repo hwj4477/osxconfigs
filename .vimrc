@@ -24,6 +24,7 @@ call vundle#begin()
     Plugin 'godlygeek/tabular'
     Plugin 'plasticboy/vim-markdown'
     Plugin 'JamshedVesuna/vim-markdown-preview'
+    Plugin 'christoomey/vim-system-copy'
 
 call vundle#end()            
 filetype plugin indent on " Put your non-Plugin stuff after this line
