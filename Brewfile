@@ -15,6 +15,7 @@ brew 'wget'
 brew 'git'
 brew 'mosh'
 brew 'mongodb'
+brew 'go'
 
 # for installing packaged applications
 tap 'caskroom/cask'

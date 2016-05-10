@@ -20,6 +20,7 @@ call vundle#begin()
     Plugin 'scrooloose/nerdtree'
 
     Plugin 'vim-ruby/vim-ruby'
+    Plugin 'fatih/vim-go'
     Plugin 'tpope/vim-rails'
     Plugin 'godlygeek/tabular'
     Plugin 'plasticboy/vim-markdown'
