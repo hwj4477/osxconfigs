@@ -26,7 +26,9 @@ export HISTCONTROL=erasedups
 export HISTSIZE=10000
 shopt -s histappend
 
+# for Golang
 export GOPATH=$HOME/srcs/go
+export PATH="$PATH:$GOPATH/bin"
 
 # common aliases
 alias ls="ls -G"
