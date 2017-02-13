@@ -1,9 +1,20 @@
-atom-runner@2.5.2
-autocomplete-swift@1.0.1
+atom-react-native-autocomplete@0.0.27
+atom-runner@2.6.0
+autocomplete-go@1.1.0
+autocomplete-swift@1.0.2
+builder-go@1.0.0
+go-config@1.1.4
+go-get@1.0.3
 go-plus@4.1.0
+gofmt@1.1.6
+gometalinter-linter@1.1.0
+gorename@1.0.2
 language-swift@0.4.0
-markdown-preview-plus@2.2.2
-markdown-writer@2.2.0
+linter@1.11.4
+markdown-preview-plus@2.4.0
+markdown-writer@2.3.3
+navigator-godef@1.0.3
 swift-debugger@0.1.2
+tester-go@1.0.4
 
 

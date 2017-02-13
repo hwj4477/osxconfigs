@@ -27,8 +27,11 @@ export HISTSIZE=10000
 shopt -s histappend
 
 # for Golang
-export GOPATH=$HOME/srcs/go
-export PATH="$PATH:$GOPATH/bin"
+if [ `which go` ] ; then
+    export GOROOT=`go env GOROOT`
+    export GOPATH=$HOME/srcs/go
+    export PATH="$PATH:$GOROOT/bin:$GOPATH/bin"
+fi
 
 # common aliases
 alias ls="ls -G"

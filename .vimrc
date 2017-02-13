@@ -60,3 +60,8 @@ set shell=/bin/bash
 " For ruby
 autocmd FileType ruby,eruby,yaml set ai sw=2 ts=2 sts=2 et
 
+" plasticbot/vim-markdown settings
+let g:vim_markdown_folding_disabled = 1
+let g:vim_markdown_no_default_key_mappings = 1
+
+" JamshedVesuna/vim-markdown-preview'
