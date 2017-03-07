@@ -3,6 +3,8 @@
 #
 # created on 2015.9.10
 #
+# updated on 2016.12.01
+#
 # by hwj4477@gmail.com
 #
 
@@ -27,11 +29,11 @@ export HISTSIZE=10000
 shopt -s histappend
 
 # for Golang
-if [ `which go` ] ; then
-    export GOROOT=`go env GOROOT`
-    export GOPATH=$HOME/srcs/go
-    export PATH="$PATH:$GOROOT/bin:$GOPATH/bin"
-fi
+#if [ `which go` ] ; then
+#    export GOROOT=`go env GOROOT`
+#    export GOPATH=$HOME/srcs/go
+#    export PATH="$PATH:$GOROOT/bin:$GOPATH/bin"
+#fi
 
 # common aliases
 alias ls="ls -G"
@@ -42,3 +44,11 @@ alias grep="grep --color=auto"
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+
+export NVM_DIR="/Users/wjhong/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+# Android
+export ANDROID_HOME=${HOME}/Library/Android/sdk
+export PATH=${PATH}:${ANDROID_HOME}/tools
+export PATH=${PATH}:${ANDROID_HOME}/platform-tools
