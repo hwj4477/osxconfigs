@@ -5,7 +5,7 @@
 #
 # last update: 2020.2.19
 # 
-# by woojeong.hong@navercorp.com
+# by hwj4477@gmail.com
 #
 
 REPOSITORY="https://oss.navercorp.com/woojeong-hong/macOS-configs.git"
