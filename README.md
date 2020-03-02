@@ -1,9 +1,9 @@
-# Config / Profile files for OSX
-My personal Config / Profile for OSX, mostly for development.
+# Config / Profile files for macOS
+My personal Config / Profile for macOS, mostly for development.
 
 
 ## Usage ##
 ```
 $ cd ~
-$ wget -O - "https://raw.github.com/hwj4477/osxconfigs/master/bin/setup.sh" | bash
+$ wget -O - "https://raw.github.com/hwj4477/osxconfigs/master/bin/setup.sh" | zsh
 ```

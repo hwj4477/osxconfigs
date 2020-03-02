@@ -1,9 +1,9 @@
-#!/usr/bin/env bash
+#!/bin/zsh
 
 #
 # Install atom package
 #
-# last update: 2016.01.19
+# last update: 2020.02.19
 #
 # by hwj4477@gmail.com
 #
