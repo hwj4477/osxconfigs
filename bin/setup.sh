@@ -17,8 +17,8 @@ echo -e "\033[32mThis script will setup various things for macOS\033[0m"
 echo -e "\033[33m>>> cloning config files...\033[0m"
 rm -rf $TMP_DIR
 git clone $REPOSITORY $TMP_DIR
-shopt -s dotglob nullglob
-mv $TMP_DIR/* $HOME/
+# rsync -a $TMP_DIR/* $HOME/
+cp -r $TMP_DIR/* $HOME/
 rm -rf $TMP_DIR
 
 # install Homebrew
