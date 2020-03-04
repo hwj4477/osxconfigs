@@ -8,7 +8,7 @@
 # by hwj4477@gmail.com
 #
 
-REPOSITORY="https://oss.navercorp.com/woojeong-hong/macOS-configs.git"
+REPOSITORY="https://github.com/hwj4477/osxconfigs.git"
 TMP_DIR="$HOME/configs.tmp"
 
 echo -e "\033[32mThis script will setup various things for macOS\033[0m"
