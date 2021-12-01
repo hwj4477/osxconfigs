@@ -60,6 +60,8 @@ xcuserdata
 
 # other
 .AndroidStudio*/
+.android
+.bash_history
 .dropbox/
 .dropbox-master/
 .putty/
